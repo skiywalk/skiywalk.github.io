@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>https://skiywalk.github.io/post/a927044d.html</loc>
+    <loc>https://skiywalk.github.io/post/4a17b156.html</loc>
     
     <lastmod>2024-03-01</lastmod>
     
@@ -11,7 +11,7 @@
   </url>
   
   <url>
-    <loc>https://skiywalk.github.io/post/4a17b156.html</loc>
+    <loc>https://skiywalk.github.io/post/a927044d.html</loc>
     
     <lastmod>2024-03-01</lastmod>
     
@@ -83,13 +83,6 @@
 
   
   <url>
-    <loc>https://skiywalk.github.io/tags/math/</loc>
-    <lastmod>2024-03-01</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>https://skiywalk.github.io/tags/hexo/</loc>
     <lastmod>2024-03-01</lastmod>
     <changefreq>weekly</changefreq>
@@ -103,17 +96,24 @@
     <priority>0.2</priority>
   </url>
   
+  <url>
+    <loc>https://skiywalk.github.io/tags/math/</loc>
+    <lastmod>2024-03-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
 
   
   <url>
-    <loc>https://skiywalk.github.io/categories/math/</loc>
+    <loc>https://skiywalk.github.io/categories/%E5%8D%9A%E5%AE%A2Blog/</loc>
     <lastmod>2024-03-01</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://skiywalk.github.io/categories/%E5%8D%9A%E5%AE%A2Blog/</loc>
+    <loc>https://skiywalk.github.io/categories/math/</loc>
     <lastmod>2024-03-01</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
