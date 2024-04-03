@@ -13,11 +13,28 @@ buildExpired: false
 googleAnalytics: # UA-123-45
 
 paginate: 15    # 首页每页显示的文章数
+summaryLength: 140 # 文章概览的自字数，默认70
 
 minify:
   disableXML: true
  # minifyOutput: true
 
+
+menu:
+  main:
+    - identifier: categories
+      name: categories
+      url: /categories/
+      weight: 10
+    - identifier: tags
+      name: tags
+      url: /tags/
+      weight: 20
+    - identifier: archives
+      name: ⏱️ 时间轴
+      url: archives/
+      weight: 20
+# Read: https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#using-hugos-syntax-highlighter-chroma
 
 
 
@@ -29,16 +46,17 @@ minify:
 
 params:
   env: production # to enable google analytics, opengraph, twitter-cards and schema.
-  title: skiywalk
-  description: "skiywalk description"
+  description: ""
   keywords: [Blog, Portfolio, PaperMod]
-  author: Me
+  author: zinon
   # author: ["Me", "You"] # multiple authors
+
   images: ["<link or path of image for opengraph, twitter-cards>"]
-  DateFormat: "January 2, 2006"
+ 
   defaultTheme: auto # dark, light
   disableThemeToggle: false
-
+  DateFormat: "2006-01-02"
+  ShowLastMod: false #显示文章更新时间
   ShowReadingTime: true
   ShowShareButtons: true
   ShowPostNavLinks: true
@@ -49,11 +67,16 @@ params:
   UseHugoToc: true
   disableSpecial1stPost: false
   disableScrollToTop: false
-  comments: true
   hidemeta: false
   hideSummary: false
-  showtoc: true
-  tocopen: true
+
+
+  showtoc: true # 显示目录
+  tocopen: true # 自动展开目录
+
+  comments: true
+
+  extendCodeBackground: false # 代码块是否自动横向展开
 
   assets:
     # disableHLJS: true # to disable highlight.js
@@ -72,13 +95,13 @@ params:
 
   # profile-mode
   profileMode:
-    enabled: false # needs to be explicitly set
+    enabled: true # needs to be explicitly set
     title: skiywalk
-    subtitle: "This is subtitle"
-    imageUrl: "<img location>"
-    imageWidth: 120
-    imageHeight: 120
-    imageTitle: my image
+    #subtitle: "This is subtitle"
+    imageUrl: "龙猫.png"
+    imageWidth: 150
+    imageHeight: 150
+    imageTitle:
     buttons:
       - name: Posts
         url: posts
@@ -127,17 +150,9 @@ params:
     minMatchCharLength: 0
     limit: 10 # refer: https://www.fusejs.io/api/methods.html#search
     keys: ["title", "permalink", "summary", "content"]
-menu:
-  main:
-    - identifier: categories
-      name: categories
-      url: /categories/
-      weight: 10
-    - identifier: tags
-      name: tags
-      url: /tags/
-      weight: 20
-# Read: https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#using-hugos-syntax-highlighter-chroma
+
+
+
 pygmentsUseClasses: true
 markup:
   highlight:
