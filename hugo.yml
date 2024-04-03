@@ -67,7 +67,7 @@ params:
 
   label: # 左上角图标
     text: "Skiywalk's Blog"
-    icon: /apple-touch-icon.png
+    icon: small龙猫.png
     iconHeight: 35
 
   # profile-mode
