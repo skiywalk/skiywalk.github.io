@@ -1,18 +1,31 @@
 baseURL: "https://skiywalk.com/"
 title: skiywalk
-paginate: 5
+
 theme: PaperMod
 
 enableRobotsTXT: true
+enableEmoji: true # 允许使用 Emoji 表情，建议 true
+
 buildDrafts: false
 buildFuture: false
 buildExpired: false
 
-googleAnalytics: UA-123-45
+googleAnalytics: # UA-123-45
+
+paginate: 15    # 首页每页显示的文章数
 
 minify:
   disableXML: true
-  minifyOutput: true
+ # minifyOutput: true
+
+
+
+
+
+
+
+
+
 
 params:
   env: production # to enable google analytics, opengraph, twitter-cards and schema.
@@ -39,8 +52,8 @@ params:
   comments: true
   hidemeta: false
   hideSummary: false
-  showtoc: false
-  tocopen: false
+  showtoc: true
+  tocopen: true
 
   assets:
     # disableHLJS: true # to disable highlight.js
@@ -51,8 +64,9 @@ params:
     apple_touch_icon: "<link / abs url>"
     safari_pinned_tab: "<link / abs url>"
 
-  label:
-    text: "Home"
+
+  label: # 左上角图标
+    text: "Skiywalk's Blog"
     icon: /apple-touch-icon.png
     iconHeight: 35
 
