@@ -27,11 +27,11 @@ menu:
       url: search
       weight: 1
     - identifier: 📚 categories
-      name: categories
+      name: 📚 categories
       url: /categories/
       weight: 10
     - identifier: 🧩 tags
-      name: tags
+      name: 🧩 tags
       url: /tags/
       weight: 20
     - identifier: archives
