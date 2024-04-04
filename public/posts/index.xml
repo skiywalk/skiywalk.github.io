@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>Posts on skiywalk</title>
+    <title>skiywalk</title>
     <link>http://localhost:1313/posts/</link>
-    <description>Recent content in Posts on skiywalk</description>
+    <description>Recent content on skiywalk</description>
     <image>
       <url>http://localhost:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
       <link>http://localhost:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
@@ -18,23 +18,6 @@
       
       <guid>http://localhost:1313/posts/emacs/</guid>
       <description>Emacs is good but not as good as vim</description>
-    </item>
-    
-    <item>
-      <title>Vim</title>
-      <link>http://localhost:1313/posts/vim/</link>
-      <pubDate>Thu, 04 Apr 2024 11:08:11 +0800</pubDate>
-      
-      <guid>http://localhost:1313/posts/vim/</guid>
-      <description>Vim-Adventures简介 Vim作为一款神级编辑器，却有非常陡峭的学习曲线。网上大部分的教程很多仍然以背指令为基础，很容易让人望而却步。之前我也多次想要学习Vim但是最终都放弃了。直到使用Vim-Adventures才发现要入门Vim其实一点也不难，而且只要熟悉了一些基本命令以后，Vim的使用体验就绝对超过市面上大部分的编辑器了。
-就我个人的体验来说，理解Vim的指令并不难，难点在于掌握Vim需要大量的重复练习。初学Vim的人很难有大量使用Vim操作的环境，或没有安全的可以进行编辑的文本，或无法忍受初学Vim时相对下降的编辑效率，从而很快就放弃了Vim。
-Vim-Adventures是一款基于Vim操作的网页版游戏，通过一些游戏行为能潜移默化地熟练Vim的基本操作，最终形成肌肉记忆。同时Vim-Adventure给予了玩家一个安全的、可大量重复练习的环境，从而在短时间内获得使用Vim的快感，最终能够体会到Vim的强大。
-Vim-Adventures的难度梯度还是比较平缓的，前几关都能够很简单的完成。但是随着游戏的进行，挑战难度会逐渐增大。鉴于网上没有看到比较全面的中文版的攻略，在全部通关Vim-Adventures后，我把每一关的流程攻略写在这里，给有兴趣学习Vim的朋友参考。
-Level 14部分参考了github:
-https://github.com/pepers/vim-adventures
-需要特别说明的是，整个攻略基于我自己的尝试，很有可能不是最优解，需要其他玩家共同发掘。同时强烈建议除非卡关很久否则尽量不要看这个攻略，自己实践的训练效果是最好的。
-全文最后有一个小彩蛋，关于学习git的使用。
-Vim-Adventures全攻略 Vim-Adventures简介 游戏内常用命令 Level 1 Level 2 Level 3 Level 4 Level 5 Deleting段： Before段： These段： Level 6 Some段： ~段： begin段： There段： With段： function段： I段： Level 7 The段： emptyStr段： if段： fx段： What&amp;rsquo;s段： Level 8 That&amp;rsquo;s段： Shoot段： Here&amp;rsquo;s段： You段： Today段： Eeny段： Level 9 Numbers段： I段： Var段： HAWAIi段： You段： 3.1415926535段： Deleting段： Level 10 Bey段： Round段： Delete段： on段： If段： When段： rule段： Let&amp;rsquo;s段： the段： Level 11 rush段： press段： Made段： Grey段： What？段： Mahatma段： 4 8段： entary段： You&amp;rsquo;ve段： Hakuna Matata段： D&amp;rsquo;oh段： Formally段： this段： No段： Arrow Island： YOU段： Level 12 It&amp;rsquo;s good段： In every generation段： May the 4th段： You can measure段： for (i=&amp;lsquo;a&amp;rsquo;;段 These are not段： \* \{ margin段： for (int i=0;段 \段： yoda段： In the段： LeChuck?段： function段： 1 2 3 4 5段： One little段： Level 13 Level 14 W Mark： H Mark： A Mark： D Mark： Underground Buffer： 总结 彩蛋 本地git仓库题目 远程git仓库题目 完成 游戏内常用命令 在学习Vim的基础命令前，有一些游戏命令需要了解。</description>
     </item>
     
   </channel>

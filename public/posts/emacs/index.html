@@ -78,7 +78,7 @@
     {
       "@type": "ListItem",
       "position":  1 ,
-      "name": "Posts",
+      "name": "",
       "item": "http://localhost:1313/posts/"
     }, 
     {
@@ -173,7 +173,7 @@
                 </a>
             </li>
             <li>
-                <a href="http://localhost:1313/categories/" title="📚 categories">
+                <a href="http://localhost:1313/posts/" title="📚 categories">
                     <span>📚 categories</span>
                 </a>
             </li>
@@ -202,7 +202,7 @@
 <article class="post-single">
     <div id="single-content">
         <header class="post-header">
-            <div class="breadcrumbs"><a href="http://localhost:1313/">Home</a>&nbsp;»&nbsp;<a href="http://localhost:1313/posts/">Posts</a></div>
+            <div class="breadcrumbs"><a href="http://localhost:1313/">Home</a>&nbsp;»&nbsp;<a href="http://localhost:1313/posts/"></a></div>
             <h1 class="post-title">
                 Emacs
             </h1>
@@ -289,16 +289,43 @@
 
         <footer class="post-footer">
             
-<nav class="paginav">
-  <a class="next" href="http://localhost:1313/posts/vim/">
-    <span class="title">Next »</span>
-    <br>
-    <span>Vim</span>
-  </a>
-</nav>
 
         </footer>
     </div>
+
+<style>
+    .comments_details summary::marker {
+        font-size: 20px;
+        content: '👉展开评论';
+        color: var(--content);
+    }
+    .comments_details[open] summary::marker{
+        font-size: 20px;
+        content: '👇关闭评论';
+        color: var(--content);
+    }
+</style>
+
+
+<div>
+    <details class="comments_details">
+        <summary style="cursor: pointer; margin: 50px 0 20px 0;width: 130px;">
+            <span style="font-size: 20px;color: var(--content);">...</span>
+        </summary>
+        <div id="tcomment"></div>
+    </details>
+    <script src="https://cdn.staticfile.org/twikoo//twikoo.all.min.js">
+    </script>
+    <script>
+        twikoo.init({
+            envId:  null ,
+        el: "#tcomment",
+            lang: 'zh-CN',
+            region:  null ,
+        path: window.TWIKOO_MAGIC_PATH||window.location.pathname,
+        })
+    </script>
+</div>
 </article>
 </main>
 

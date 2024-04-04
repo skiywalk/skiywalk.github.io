@@ -28,7 +28,7 @@ menu:
       weight: 1
     - identifier: 📚 categories
       name: 📚 categories
-      url: /categories/
+      url: /posts/
       weight: 10
     - identifier: 🧩 tags
       name: 🧩 tags
@@ -91,6 +91,9 @@ params:
     apple_touch_icon: "龙猫.png"
     safari_pinned_tab: "龙猫.png"
 
+	twikoo:
+      version: 1.6.32 // 这个版本号要自己手动修改，和twikoo的版本号要对得上
+
 
   label: # 左上角图标
     text: "Skiywalk's Blog"
@@ -107,8 +110,6 @@ params:
     imageHeight: 150
     imageTitle:
     buttons:
-      - name: categories
-        url: categories
       - name: Tags
         url: tags
 
@@ -150,7 +151,7 @@ params:
     distance: 1000
     threshold: 0.4
     minMatchCharLength: 0
-    limit: 10 # refer: https://www.fusejs.io/api/methods.html#search
+   #limit: 10 # refer: https://www.fusejs.io/api/methods.html#search
     keys: ["title", "permalink", "summary", "content"]
 
 
@@ -161,7 +162,7 @@ markup:
     # anchorLineNos: true
     codeFences: true
     guessSyntax: true
-    # lineNos: true
+    lineNos: true
     noClasses: true
     tabWidth: 4
     style: monokai
