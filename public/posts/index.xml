@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>skiywalk</title>
-    <link>http://localhost:1313/</link>
-    <description>Recent content on skiywalk</description>
+    <title>Posts on skiywalk</title>
+    <link>http://localhost:1313/posts/</link>
+    <description>Recent content in Posts on skiywalk</description>
     <image>
       <url>http://localhost:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
       <link>http://localhost:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 04 Apr 2024 11:08:21 +0800</lastBuildDate><atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 04 Apr 2024 11:08:21 +0800</lastBuildDate><atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Emacs</title>
       <link>http://localhost:1313/posts/emacs/</link>
@@ -36,17 +36,6 @@ https://github.com/pepers/vim-adventures
 全文最后有一个小彩蛋，关于学习git的使用。
 Vim-Adventures全攻略 Vim-Adventures简介 游戏内常用命令 Level 1 Level 2 Level 3 Level 4 Level 5 Deleting段： Before段： These段： Level 6 Some段： ~段： begin段： There段： With段： function段： I段： Level 7 The段： emptyStr段： if段： fx段： What&amp;rsquo;s段： Level 8 That&amp;rsquo;s段： Shoot段： Here&amp;rsquo;s段： You段： Today段： Eeny段： Level 9 Numbers段： I段： Var段： HAWAIi段： You段： 3.1415926535段： Deleting段： Level 10 Bey段： Round段： Delete段： on段： If段： When段： rule段： Let&amp;rsquo;s段： the段： Level 11 rush段： press段： Made段： Grey段： What？段： Mahatma段： 4 8段： entary段： You&amp;rsquo;ve段： Hakuna Matata段： D&amp;rsquo;oh段： Formally段： this段： No段： Arrow Island： YOU段： Level 12 It&amp;rsquo;s good段： In every generation段： May the 4th段： You can measure段： for (i=&amp;lsquo;a&amp;rsquo;;段 These are not段： \* \{ margin段： for (int i=0;段 \段： yoda段： In the段： LeChuck?段： function段： 1 2 3 4 5段： One little段： Level 13 Level 14 W Mark： H Mark： A Mark： D Mark： Underground Buffer： 总结 彩蛋 本地git仓库题目 远程git仓库题目 完成 游戏内常用命令 在学习Vim的基础命令前，有一些游戏命令需要了解。</description>
     </item>
-    
-    <item>
-      <title>🙋🏻‍♂️关于</title>
-      <link>http://localhost:1313/about/</link>
-      <pubDate>Sat, 06 Nov 2021 14:57:28 +0800</pubDate>
-      
-      <guid>http://localhost:1313/about/</guid>
-      <description> 英文名: Kevin Xu 职业: 程序员 运动: 跑步、乒乓球、爬山 </description>
-    </item>
-    
-    
     
   </channel>
 </rss>
