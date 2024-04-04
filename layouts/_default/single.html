@@ -46,8 +46,8 @@
                                     finalUrl = '/'+finalUrl
                                 }
                                 twikoo.getCommentsCount({
-                                    envId: {{ .Site.Params.twikoo.id }}, // 环境 ID
-                                region: {{ .Site.Params.twikoo.region }}, // 环境地域，默认为 ap-shanghai，如果您的环境地域不是上海，需传此参数
+                                    envId: 'https:// twikoo-vercel-smoky-pi.vercel.app ', // 环境 ID
+                                //region: {{ .Site.Params.twikoo.region }}, // 环境地域，默认为 ap-shanghai，如果您的环境地域不是上海，需传此参数
                                 urls: [ // 不包含协议、域名、参数的文章路径列表，必传参数
                                     // '/2020/10/post-1.html', //填写示例
                                     finalUrl,
@@ -64,6 +64,8 @@
                                     // 发生错误
                                     console.error(err);
                                 });
+
+                                
                             </script>
                             <span id="comment_count"></span>
                         </span>

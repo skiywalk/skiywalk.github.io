@@ -91,9 +91,6 @@ params:
     apple_touch_icon: "龙猫.png"
     safari_pinned_tab: "龙猫.png"
 
-	twikoo:
-      version: 1.6.32 // 这个版本号要自己手动修改，和twikoo的版本号要对得上
-
 
   label: # 左上角图标
     text: "Skiywalk's Blog"
@@ -154,6 +151,9 @@ params:
    #limit: 10 # refer: https://www.fusejs.io/api/methods.html#search
     keys: ["title", "permalink", "summary", "content"]
 
+params:
+twikoo:
+      version: 1.6.32  
 
 
 pygmentsUseClasses: true
