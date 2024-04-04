@@ -79,7 +79,8 @@ params:
   tocopen: true # 自动展开目录
 
   comments: true
-
+  twikoo:    
+      version: 1.6.32  
   extendCodeBackground: false # 代码块是否自动横向展开
 
   assets:
@@ -151,9 +152,7 @@ params:
    #limit: 10 # refer: https://www.fusejs.io/api/methods.html#search
     keys: ["title", "permalink", "summary", "content"]
 
-params:
-twikoo:
-      version: 1.6.32  
+
 
 
 pygmentsUseClasses: true

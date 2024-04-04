@@ -6,7 +6,7 @@
 <style>
     .comments_details summary::marker {
         font-size: 20px;
-        content: '👉展开评论';
+        content: '💬展开评论';
         color: var(--content);
     }
     .comments_details[open] summary::marker{
@@ -16,6 +16,8 @@
     }
 </style>
 
+
+
 <!-- Twikoo -->
 <div>
     <details class="comments_details">
@@ -24,15 +26,14 @@
         </summary>
         <div id="tcomment"></div>
     </details>
-    <script src="https://cdn.staticfile.org/twikoo/{{ .Site.Params.twikoo.version }}/twikoo.all.min.js">
-    </script>
+    <script src="https://cdn.staticfile.org/twikoo/{{ .Site.Params.twikoo.version }}/twikoo.all.min.js"></script>
     <script>
         twikoo.init({
-            envId: "https://twikoo-vercel-smoky-pi.vercel.app ",
+            envId: "https://twikoo-vercel-smoky-pi.vercel.app",  //这里填写自己的envId
             el: "#tcomment",
             lang: 'zh-CN',
-            region: "",
-        path: window.TWIKOO_MAGIC_PATH||window.location.pathname,
+            region: '',  //我的区域是广州，可以不填，默认是ap-shanghai
+            path: window.TWIKOO_MAGIC_PATH||window.location.pathname,
         });
     </script>
 </div>
