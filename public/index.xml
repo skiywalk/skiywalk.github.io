@@ -21,21 +21,12 @@
     </item>
     
     <item>
-      <title>🙋🏻‍♂️关于</title>
+      <title>🙋🏻‍♂️about</title>
       <link>http://localhost:1313/about/</link>
       <pubDate>Sat, 06 Nov 2021 14:57:28 +0800</pubDate>
       
       <guid>http://localhost:1313/about/</guid>
-      <description> 英文名: Kevin Xu 职业: 程序员 运动: 跑步、乒乓球、爬山 </description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>http://localhost:1313/posts/readme/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/posts/readme/</guid>
-      <description>pinglun-api </description>
+      <description> name: skiywalk career: programmer : </description>
     </item>
     
     

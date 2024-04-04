@@ -38,6 +38,10 @@ menu:
       name: ⏱️ archives
       url: archives/
       weight: 20
+    - identifier: about
+      name: 🙋🏻‍♂️ about
+      url: about/
+      weight: 20
 # Read: https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#using-hugos-syntax-highlighter-chroma
 
 

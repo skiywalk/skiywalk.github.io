@@ -1,11 +1,12 @@
 ---
-title: "🙋🏻‍♂️关于"
+title: "🙋🏻‍♂️about"
 layout: about
 date: 2021-11-06T14:57:28+08:00
 hidemeta: true
 description: ""
 weight:
 slug: ""
+searchHidden: true #屏蔽搜索
 draft: false # 是否为草稿
 comments: true
 reward: false
@@ -26,6 +27,6 @@ cover:
 
 |           |                    |
 | --------- | ------------------ |
-| 英文名:   | Kevin Xu              |
-| 职业:     | 程序员             |
-| 运动:     | 跑步、乒乓球、爬山 |
+| name:     | skiywalk              |
+| career:     | programmer             |
+| :     |  |
