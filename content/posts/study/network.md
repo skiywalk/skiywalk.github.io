@@ -1,7 +1,7 @@
 ---
-title: Emacs
-date: 2024-04-04T11:08:21+08:00
-lastmod: 2024-04-04T11:08:21+08:00
+title: network
+date: 2024-04-18T01:05:11+08:00
+lastmod: 2024-04-18T01:05:11+08:00
 author:
   - zinonye
 keywords: 
@@ -12,14 +12,17 @@ weight:
 slug: ""
 draft: false
 comments: true
-reward: true
 mermaid: true
 showToc: true
 TocOpen: true
 disableShare: true
 showbreadcrumbs: true
 ---
-Emacs is good but not as good as vim
+
+
+
+
+
 
 
 

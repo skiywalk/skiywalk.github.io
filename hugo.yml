@@ -118,7 +118,9 @@ params:
     buttons:
       - name: Tags
         url: tags
-
+      - name:  study
+        url: /posts/study
+      
   # home-info mode
   homeInfoParams:
     Title: "你好"
