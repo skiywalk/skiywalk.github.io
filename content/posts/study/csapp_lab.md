@@ -23,19 +23,22 @@ showbreadcrumbs: true
 ## 简短总结：
 三部分
 ### 1.机器码到cpu 
-	1. 数据的表示和运算
-	2. 汇编与编译：最难，也是精华所在，将高级语言与汇编对应
-	3. cpu architecture：本书最"浅"的一章，pipeline 分支预测 ，--->《计算机组成原理：软硬件接口》《计算机体系结构：量化方法》
-	4. 优化程序性能：对前面的小结，顺带一点剖析性能的方法
-	5. memory hierarchy：locality and cache，存储器山
+
+1. 数据的表示和运算
+2. 汇编与编译：最难，也是精华所在，将高级语言与汇编对应
+3. cpu architecture：本书最"浅"的一章，pipeline 分支预测 ，--->《计算机组成原理：软硬件接口》《计算机体系结构：量化方法》
+4. 优化程序性能：对前面的小结，顺带一点剖析性能的方法
+5. memory hierarchy：locality and cache，存储器山
 ### 2.在系统上运行
-	1. linker：很好，但是太浅--->《程序员的自我修养：链接装载与库》《Linkers&Loders》
-	2. 异常控制流ECF：很好--->《APUE》？
-	3. virtual memory：很好，实现方式（page TLB...）和dynamic malloc--->系统方面
+
+1. linker：很好，但是太浅--->《程序员的自我修养：链接装载与库》《Linkers&Loders》
+2. 异常控制流ECF：很好--->《APUE》？
+3. virtual memory：很好，实现方式（page TLB...）和dynamic malloc--->系统方面
 ### 3.程序间的交互和通信
-	1. 系统级I/O：过于浅，基本是上一章的延续（按照专门讲系统的书来说）--->《APUE》
-	2. 网络编程：浅，一点socket知识--->《计算机网络》《UNP》
-	3. 并发编程（concurrency）：仍然浅，但这个主题很重要--->既出现在系统层面（cpu）也出现在数据库（io多路复用）
+
+1. 系统级I/O：过于浅，基本是上一章的延续（按照专门讲系统的书来说）--->《APUE》
+2. 网络编程：浅，一点socket知识--->《计算机网络》《UNP》
+3. 并发编程（concurrency）：仍然浅，但这个主题很重要--->既出现在系统层面（cpu）也出现在数据库（io多路复用）
 
 ---
 
