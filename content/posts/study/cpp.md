@@ -6,7 +6,8 @@ author:
   - zinonye
 keywords: 
 categories: 
-tags: 
+tags:
+  - study
 description: ""
 weight: 
 slug: ""

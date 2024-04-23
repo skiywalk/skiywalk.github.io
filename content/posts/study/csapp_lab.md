@@ -6,7 +6,8 @@ author:
   - zinonye
 keywords: 
 categories: 
-tags: 
+tags:
+  - study
 description: 
 weight: 
 slug: ""
@@ -19,7 +20,9 @@ disableShare: true
 showbreadcrumbs: true
 ---
 **本书价值等重的黄金**
+
  csapp不愧是最好的入门书（有基础之后），以程序员的视角自底向上全面地剖析计算机系统，难得在于全面的同时还具有一定的深度（这也是为什么难学），然而，学好它也仅仅是打一个好底子、以支撑入门后的进一步学习
+ 
 ## 简短总结：
 三部分
 ### 1.机器码到cpu 
