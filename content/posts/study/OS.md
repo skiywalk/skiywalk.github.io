@@ -37,17 +37,22 @@ linux是艺术
 - 《码农翻身》
 
 操作系统的网课最丰富
+
 国内：
 1. 哈工大李治军
 2. NJU蒋炎炎
+
 ：
 1. 6.081/828
 2. Berkeley CS 162
+
 and so on
+
 网课配的实验也很有价值
 1. MIT的 xv6
 2. UC Berkeley的 Pintos
 3. 南大
+
 
 进阶：学习Linux；继续向底层就是体系结构；拓展就是分布式；数据库
 
@@ -55,9 +60,10 @@ and so on
 ### Linux
 - 《Unix&Linux 大学教程》《UNIX传奇：历史与回忆》《Just for fun（linus自传）》
 - 《Linux 命令行与shell脚本编程大全》
+- 《Linux高性能服务器编程》《Linux多线程服务器端编程(陈硕Muduo)》
 - 《APUE》《UNP》《Linux/UNIX系统编程手册》
 - 《UNIX编程艺术》
-- 《Linux高性能服务器编程》
+
 - 《深入理解Linux内核》
 
 

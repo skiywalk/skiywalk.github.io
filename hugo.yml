@@ -120,7 +120,11 @@ params:
         url: tags
       - name:  study
         url: /posts/study
-      
+      - name: 散记
+        url: /posts/散记
+
+        
+         
   # home-info mode
   homeInfoParams:
     Title: "你好"
